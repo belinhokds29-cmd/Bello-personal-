@@ -1,18 +1,13 @@
 export default function App() {
   return (
-    <div style={{
-      background:"#000",
-      color:"#fff",
-      minHeight:"100vh",
-      display:"flex",
-      justifyContent:"center",
-      alignItems:"center",
-      fontFamily:"Arial"
-    }}>
-      <div>
-        <h1>PERSONAL BELLO PRO</h1>
-        <p>Sistema funcionando 🚀</p>
+    <main className="app">
+      <div className="hero">
+        <p className="kicker">PERSONAL BELLO PRO</p>
+        <h1>Treino, foco, disciplina e resultados.</h1>
+        <p className="subtitle">
+          Sistema base pronto para evoluir para dashboard, alunos, treinos e avaliações.
+        </p>
       </div>
-    </div>
+    </main>
   )
 }
